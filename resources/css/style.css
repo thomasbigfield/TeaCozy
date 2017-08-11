@@ -1,0 +1,109 @@
+/* All Elements CSS */
+
+body {
+  font-family: Helvetica, serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  display: block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header {
+  height: 69px;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  display: block;
+}
+
+h5 {
+  font-weight: bold;
+  display: block;
+}
+
+/* All Class CSS */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* All ID CSS */
+
+#mission {
+  height: 700px;
+  background-image: url('../images/img-mission-background.jpg');
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#store {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
